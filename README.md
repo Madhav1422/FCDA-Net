@@ -87,20 +87,25 @@ Testing- Mendeley test set (https://data.mendeley.com/datasets/zwr4ntf94j/1)
 
 
 Dataset Structure:
-
 Dataset/
-│
 ├── Training/
-│   ├── glioma/       # Glioma tumor MRI images
-│   ├── meningioma/   # Meningioma tumor MRI images
-│   ├── notumor/      # No-tumor MRI images
-│   └── pituitary/    # Pituitary tumor MRI images
-│
+│   ├── glioma/
+│   │   └── [Glioma tumor MRI images]
+│   ├── meningioma/
+│   │   └── [Meningioma tumor MRI images]
+│   ├── notumor/
+│   │   └── [No-tumor MRI images]
+│   └── pituitary/
+│       └── [Pituitary tumor MRI images]
 └── Test/
-    ├── glioma/       # Glioma tumor MRI images
-    ├── meningioma/   # Meningioma tumor MRI images
-    ├── notumor/      # No-tumor MRI images
-    └── pituitary/    # Pituitary tumor MRI images
+    ├── glioma/
+    │   └── [Glioma tumor MRI images]
+    ├── meningioma/
+    │   └── [Meningioma tumor MRI images]
+    ├── notumor/
+    │   └── [No-tumor MRI images]
+    └── pituitary/
+        └── [Pituitary tumor MRI images]
 
 
     
