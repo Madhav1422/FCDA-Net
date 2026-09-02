@@ -86,16 +86,21 @@ Testing- Mendeley test set (https://data.mendeley.com/datasets/zwr4ntf94j/1)
 /nfsshare/users/raghavan/Brainz/Brain tumor dataset/
 
 
+Dataset Structure:
+
+Dataset/
+│
 ├── Training/
-│   ├── glioma/
-│   ├── meningioma/
-│   ├── notumor/
-│   └── pituitary/
+│   ├── glioma/       # Glioma tumor MRI images
+│   ├── meningioma/   # Meningioma tumor MRI images
+│   ├── notumor/      # No-tumor MRI images
+│   └── pituitary/    # Pituitary tumor MRI images
+│
 └── Test/
-    ├── glioma/
-    ├── meningioma/
-    ├── notumor/
-    └── pituitary/
+    ├── glioma/       # Glioma tumor MRI images
+    ├── meningioma/   # Meningioma tumor MRI images
+    ├── notumor/      # No-tumor MRI images
+    └── pituitary/    # Pituitary tumor MRI images
 
 
     
