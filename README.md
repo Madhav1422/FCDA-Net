@@ -104,14 +104,15 @@ Radiological literature has long used fractal dimension (FD) of tumour margins/i
   [Brain Tumor Dataset](https://data.mendeley.com/datasets/zwr4ntf94j/1)
 
 ### Directory Structure
+
 Dataset/
 ├── Training/
-│ ├── glioma/
-│ ├── meningioma/
-│ ├── pituitary/
-│ └── notumor/
+│   ├── glioma/
+│   ├── meningioma/
+│   ├── pituitary/
+│   └── notumor/
 └── Test/
-├── glioma/
-├── meningioma/
-├── pituitary/
-└── notumor/
+    ├── glioma/
+    ├── meningioma/
+    ├── pituitary/
+    └── notumor/
