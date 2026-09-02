@@ -2,6 +2,8 @@
 
 ## Brain Tumour Classification (4 Classes)
 **Classes:** glioma | meningioma | notumor | pituitary
+---
+
 ## Before performing the experiment install the required libraries
 
 pip install torch torchvision timm scikit-learn scipy pandas numpy matplotlib seaborn pillow
