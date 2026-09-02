@@ -4,17 +4,14 @@
 **Classes:** glioma | meningioma | notumor | pituitary
 ---
 
-## Before performing the experiment install the required libraries
-
-pip install torch torchvision timm scikit-learn scipy pandas numpy matplotlib seaborn pillow
----
-
 ## Overview
 
 FCDA-Net is a novel deep learning framework that integrates differentiable fractal dimension estimation into a CNN architecture through a dual-gate attention mechanism. The core innovation makes local fractal dimension estimation learnable and differentiable, folding it directly into the feature extraction pipeline.
 
 ---
+## Before performing the experiment install the required libraries
 
+pip install torch torchvision timm scikit-learn scipy pandas numpy matplotlib seaborn pillow
 ## Key Innovation
 
 Radiological literature has long used fractal dimension (FD) of tumour margins/internal texture as a hand-crafted biomarker of lesion irregularity. FCDA-Net makes this **differentiable and learnable**, enabling the network to learn optimal fractal representations directly from data.
