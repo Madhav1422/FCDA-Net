@@ -84,6 +84,8 @@ text
 Training- Kaggle training set (https://www.kaggle.com/datasets/mohamadabouali1/mri-brain-tumor-dataset-4-class-7023-images)
 Testing- Mendeley test set (https://data.mendeley.com/datasets/zwr4ntf94j/1)
 /nfsshare/users/raghavan/Brainz/Brain tumor dataset/
+
+
 ├── Training/
 │   ├── glioma/
 │   ├── meningioma/
@@ -94,6 +96,9 @@ Testing- Mendeley test set (https://data.mendeley.com/datasets/zwr4ntf94j/1)
     ├── meningioma/
     ├── notumor/
     └── pituitary/
+
+
+    
 Visualisations Generated
 For each model × seed:
 
