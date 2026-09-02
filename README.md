@@ -88,24 +88,18 @@ Testing- Mendeley test set (https://data.mendeley.com/datasets/zwr4ntf94j/1)
 
 Dataset Structure:
 Dataset/
-├── Training/
-│   ├── glioma/
-│   │   └── [Glioma tumor MRI images]
-│   ├── meningioma/
-│   │   └── [Meningioma tumor MRI images]
-│   ├── notumor/
-│   │   └── [No-tumor MRI images]
-│   └── pituitary/
-│       └── [Pituitary tumor MRI images]
-└── Test/
-    ├── glioma/
-    │   └── [Glioma tumor MRI images]
-    ├── meningioma/
-    │   └── [Meningioma tumor MRI images]
-    ├── notumor/
-    │   └── [No-tumor MRI images]
-    └── pituitary/
-        └── [Pituitary tumor MRI images]
+
+Training/
+    glioma/
+    meningioma/
+    pituitary/
+    notumor/
+
+Test/
+    glioma/
+    meningioma/
+    pituitary/
+    notumor/
 
 
     
@@ -123,11 +117,11 @@ GradCAM Heatmaps (per test image)
 Output Directory Structure
 text
 FCDA_2026/
-├── {model_name}/
-│   ├── metrics/
-│   │   ├── test_metrics_seed{seed}.csv
-│   │   ├── cm_seed{seed}.{csv,png}
-│   │   ├── roc_data_seed{seed}.csv
+{model_name}/
+│    metrics/
+│    test_metrics_seed{seed}.csv
+│   │── cm_seed{seed}.{csv,png}
+│   │── roc_data_seed{seed}.csv
 │   │   ├── roc_seed{seed}.png
 │   │   └── history_seed{seed}.csv
 │   ├── curves/
